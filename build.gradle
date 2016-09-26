@@ -29,4 +29,8 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testCompile 'org.fluentlenium:fluentlenium-assertj:1.0.0-RC2'
+	testCompile 'org.fluentlenium:fluentlenium-junit:1.0.0-RC2'
+	testCompile 'org.seleniumhq.selenium:selenium-chrome-driver:2.53.1'
+
 }
